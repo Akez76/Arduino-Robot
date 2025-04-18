@@ -29,16 +29,13 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 5.Upload the Arduino sketch from the code/ folder.
 6.Place the robot on a black line and turn it on.
 
-7.Code
-The complete code is available in the [code](code/) directory.
-
-8.Photos
+7.Photos
 ![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
 ![Arduino Robot2](https://github.com//Akez76/Arduino-Robot/blob/main/robot2.jpeg)
 
 
 
-9.Skills Used
+8.Skills Used
 -Arduino programming (C++)
 -Sensor input handling
 -Motor control (PWM)
