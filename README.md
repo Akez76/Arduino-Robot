@@ -13,6 +13,7 @@ This project is based on the Arduino Nano and is designed to demonstrate basic r
 - Engine driver TB6612FNG
 - 7.4-9V Battery or Power Bank
 
+
 4.How It Works
 The robot uses an 8-channel infrared sensor array to detect a black line on a white surface.
 Each channel (sensor) sends a signal to the Arduino indicating whether it detects black (low reflection) or white (high reflection).
@@ -21,6 +22,7 @@ The Arduino reads the digital (or analog) values from all 8 sensors and determin
 Based on which sensors detect the line, the robot adjusts the speed of its left and right motors:
 If the line is in the center, both motors move forward.
 If the line shifts left or right, the robot slows one motor and speeds up the other to realign.     
+
 
 6.Instructions:
 1.Assemble the robot chassis and attach all components.
@@ -35,11 +37,13 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 ![Arduino Robot2](https://github.com//Akez76/Arduino-Robot/blob/main/robot2.jpeg)
 
 
-8.Skills Used
+8.Skills Used:
 -Arduino programming (C++)
 -Sensor input handling
 -Motor control (PWM)
 -Autonomous movement logic
+
+
 
 Author:
 Akezhan Kurbanov
