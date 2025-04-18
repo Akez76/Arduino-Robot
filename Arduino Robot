@@ -1,0 +1,101 @@
+
+int pwma = 11;
+int pwmb = 10; 
+int ain1 = 7;
+int ain2 = 8;
+int bin1 = 6;
+int bin2 = 5;
+int otl = 2;
+int otc = 3;
+int otr = 4; 
+
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(otl,INPUT);
+pinMode(otc,INPUT);
+pinMode(otr,INPUT);
+Serial.begin(9600); 
+
+pinMode(pwma,OUTPUT);
+pinMode(pwmb,OUTPUT);
+pinMode(ain1,OUTPUT);
+pinMode(ain2,OUTPUT);
+pinMode(bin1,OUTPUT);
+pinMode(bin2,OUTPUT);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+int  otl1 =  digitalRead(otl);
+int  otc1 =  digitalRead(otc);
+int  otr1 =  digitalRead(otr);
+
+Serial.println((String)"L "+otl1+ " C "+otc1+" R "+otr1);
+String reading = String(otl1) + String(otc1) + String(otr1);
+if (reading=="100"){Serial.println("выравниваем вправо");
+right();
+}
+
+if (reading=="111"){Serial.println("едем прямо");
+vpered();
+}
+if (reading=="001"){Serial.println("выравниваем влево");
+left();
+}
+if (reading=="000"){Serial.println("стоп");
+nazad();
+}
+}
+
+
+void vpered(){
+digitalWrite(ain1,HIGH);
+digitalWrite(ain2,LOW);
+digitalWrite(bin1,HIGH);
+digitalWrite(bin2,LOW);
+analogWrite(pwmb,150);
+analogWrite(pwma,150);
+
+}
+
+void left(){
+digitalWrite(ain1,HIGH);
+digitalWrite(ain2,LOW);
+digitalWrite(bin1,LOW);
+digitalWrite(bin2,LOW);
+analogWrite(pwmb,0);
+analogWrite(pwma,150);
+
+}
+void right(){
+digitalWrite(ain1,LOW);
+digitalWrite(ain2,LOW);
+digitalWrite(bin1,HIGH);
+digitalWrite(bin2,LOW);
+analogWrite(pwmb,150);
+analogWrite(pwma,0);
+
+}
+
+void nazad(){
+digitalWrite(ain1,LOW);
+digitalWrite(ain2,LOW);
+digitalWrite(bin1,LOW);
+digitalWrite(bin2,LOW);
+analogWrite(pwmb,0);
+analogWrite(pwma,0);
+
+}
+
+
+
+
+
+
+
+
