@@ -32,20 +32,7 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 
 7.Photos
 ![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
-
-
-
-
-
-
-
-
-
-
 ![Arduino Robot2](https://github.com//Akez76/Arduino-Robot/blob/main/robot2.jpeg)
-
-
-
 
 
 8.Skills Used
@@ -56,7 +43,3 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 
 Author:
 Akezhan Kurbanov
-
-
-
-
