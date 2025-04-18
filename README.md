@@ -3,7 +3,8 @@ This is an autonomous robot that follows a black line on a white surface using i
 1.Line-Following Arduino Robot on the line
 
 2.Description
-This project is an autonomous robot that follows a black line on a white surface using infrared (IR) sensors. It is based on the Arduino Nano and is designed to demonstrate basic robotics, sensor integration, and motor control. The robot uses simple logic to stay on the path by constantly adjusting its direction based on input from eight IR sensors.
+This project is based on the Arduino Nano and is designed to demonstrate basic robotics, sensor integration, and motor control. The robot uses simple logic to stay on the path by constantly adjusting its direction based on input from eight IR sensors.
+
 3.Components Used
 - Arduino Nano
 - 2x Motors(G12-N20 9V) with wheels
@@ -31,7 +32,19 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 
 7.Photos
 ![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
+
+
+
+
+
+
+
+
+
+
 ![Arduino Robot2](https://github.com//Akez76/Arduino-Robot/blob/main/robot2.jpeg)
+
+
 
 
 
