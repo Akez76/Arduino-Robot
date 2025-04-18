@@ -33,7 +33,7 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 The complete code is available in the [code](code/) directory.
 
 8.Photos
-![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/robot.jpg.jpeg)
+![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
 ![Arduino Robot2](https://github.com//Akez76/Arduino-Robot/blob/main/robot2.jpeg)
 
 
