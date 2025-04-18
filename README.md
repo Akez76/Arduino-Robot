@@ -38,10 +38,10 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 
 
 8.Skills Used:
--Arduino programming (C++)
--Sensor input handling
--Motor control (PWM)
--Autonomous movement logic
+- rduino programming (C++)
+- ensor input handling
+- Motor control (PWM)
+- Autonomous movement logic
 
 
 
