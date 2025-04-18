@@ -23,12 +23,15 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 
 
 4.Instructions:
-1.Assemble the robot chassis and attach all components.
-2.Connect the motors to the TB6612FNG motor driver.
-3.Connect IR sensors to the digital pins of Arduino.
-4.Connect Motor driver to Arduino (BIN1,BIN2,VCC,GND,AIN1,AIN2, PWMA,PWMB).
-5.Upload the Arduino sketch from the code/ folder.
-6.Place the robot on a black line and turn it on.
+- Assemble the robot chassis and attach all components.
+- Connect the motors to the TB6612FNG motor driver.
+- Connect IR sensors to the digital pins of Arduino.
+- Connect Motor driver to Arduino (BIN1,BIN2,VCC,GND,AIN1,AIN2, PWMA,PWMB).
+- Upload the Arduino sketch from the code/ folder.
+- Place the robot on a black line and turn it on.
+
+
+
 
 5.Photos
 ![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
