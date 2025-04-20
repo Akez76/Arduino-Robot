@@ -30,6 +30,20 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 - Upload the Arduino sketch from the code/ folder.
 - Place the robot on a black line and turn it on.
 
+5.Wiring Summary
+Component      Arduino Pin
+- pwma               D11
+- pwmb               D10 
+- ain1                D7
+- ain2                D8
+- bin1                D6
+- bin2                D5
+- otl                 D2
+- otc                 D3
+- otr                 D4 
+- vcc                 5V
+- GND                 GND
+- 
 
 
 
