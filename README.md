@@ -31,21 +31,19 @@ If the line shifts left or right, the robot slows one motor and speeds up the ot
 - Place the robot on a black line and turn it on.
 
 # 5.Wiring Summary
-## Component:     Arduino Pin:
-- pwma               D11
-- pwmb               D10 
-- ain1                D7
-- ain2                D8
-- bin1                D6
-- bin2                D5
-- otl                 D2
-- otc                 D3
-- otr                 D4 
-- vcc                 5V
-- GND                 GND
-- 
-
-
+## Component:            Arduino Pin:
+- TB6612FNG pwma               D11
+- TB6612FNG pwmb               D10 
+- TB6612FNG ain1                D7
+- TB6612FNG ain2                D8
+- TB6612FNG bin1                D6
+- TB6612FNG bin2                D5
+- Tracker Sensor V2.1 otl       D2
+- Tracker Sensor V2.1 otc       D3
+- Tracker Sensor V2.1 otr       D4 
+- TB6612FNG vcc                 5V
+- TB6612FNG ND                 GND
+  
 
 # 6.Photos
 ![Arduino Robot1](https://github.com/Akez76/Arduino-Robot/blob/main/hgl06ktw.png)
